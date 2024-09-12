@@ -34,7 +34,7 @@ I have a pet named \(petName), and I am learning \(languagesLearning.joined(sepa
 Fun fact: \(funFact)
 """
 
-var futureGoals: String = "In the future, I want to become a professional iOS developer. 🚀"
+var futureGoals: String = "In the future, I want to become a good it specialist. 🚀"
 var travelDream: String = "I also dream of visiting \(dreamDestination) one day."
 
 lifeStory.append("\n" + futureGoals)
