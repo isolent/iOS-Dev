@@ -17,7 +17,7 @@ var isHobbyCreative: Bool = true
 var favoriteSport: String = "volleyball"
 var hasPets: Bool = true
 
-let lifeStory: String = """
+var lifeStory: String = """
 My name is \(firstName) \(lastName). I am \(age) years old, born in \(birthYear). 
 I am currently a student. I enjoy \(hobby), which is a creative hobby. 
 I have \(numberOfHobbies) hobbies in total, and my favorite number is \(favoriteNumber). 
@@ -28,8 +28,7 @@ print(lifeStory)
 print("\n")
 
 var futureGoals: String = "In the future, I want to become a professional iOS developer. 🚀"
-let lifeStoryWithGoals: String = lifeStory + "\n" + futureGoals
 
-print(lifeStoryWithGoals)
+lifeStory.append("\n" + futureGoals)
 
-
+print(lifeStory)
