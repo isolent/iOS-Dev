@@ -10,7 +10,7 @@ func isPalindrome(text: String) -> Bool{
             cleanText.append(char)
         }
     }
-    
+
     return cleanText == String(cleanText.reversed())
 }
 
