@@ -26,18 +26,17 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     func playingSound(chosenSound: String) {
-        if let soundURL = Bundle.main.url(forResource: chosenSound, withExtension: "wav") {
-            do {
-                audio?.stop()
-                
-                audio = try AVAudioPlayer(contentsOf: soundURL)
-                audio?.prepareToPlay()
-                audio?.play()
-            } catch {
-                print("Error playing sound: \(error)")
+        guard let url = Bundle.main.url(forResource: chosenSound, withExtension: "wav") else {
+                print("can not find sound")
+                return
             }
-        } else {
-            print("Sound file not found for \(chosenSound)")
+            
+        audio = try? AVAudioPlayer(contentsOf: url)
+        guard let player = audio else {
+            print("failed to initialize audio player")
+            return
         }
+
+        player.play()
     }
 }
