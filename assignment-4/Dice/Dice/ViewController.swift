@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     // Outlets for the dice image views
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
-    @IBOutlet weak var diceImageView3: UIImageView!
+
     
     let diceImages = ["dice1", "dice2", "dice3", "dice4", "dice5", "dice6"]
     
@@ -20,12 +20,10 @@ class ViewController: UIViewController {
         // Generate two random numbers for the dice
         let randomIndex1 = Int.random(in: 0...5)
         let randomIndex2 = Int.random(in: 0...5)
-        let randomIndex3 = Int.random(in: 0...5)
-        
+    
         // Update the image views with the random dice images
         diceImageView1.image = UIImage(named: diceImages[randomIndex1])
         diceImageView2.image = UIImage(named: diceImages[randomIndex2])
-        diceImageView3.image = UIImage(named: diceImages[randomIndex3])
     }
 
     override func viewDidLoad() {
@@ -34,6 +32,5 @@ class ViewController: UIViewController {
     
         diceImageView1.image = UIImage(named: "dice1")
         diceImageView2.image = UIImage(named: "dice2")
-        diceImageView3.image = UIImage(named: "dice3")
     }
 }
