@@ -82,6 +82,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KCM-z6-MaQ" secondAttribute="trailing" constant="15" id="T54-En-imw"/>
                             <constraint firstItem="3BV-aA-Aqj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UZc-EJ-GT6"/>
                             <constraint firstItem="1lr-DE-ER8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VCI-kS-xl1"/>
+                            <constraint firstItem="1lr-DE-ER8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bam-IV-Ffi"/>
                             <constraint firstItem="3BV-aA-Aqj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="iip-Ok-S7V"/>
                             <constraint firstItem="KCM-z6-MaQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jMP-1p-Z4Y"/>
                             <constraint firstItem="zDk-p3-JH8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lCj-kq-K47"/>
@@ -90,6 +91,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3BV-aA-Aqj" secondAttribute="trailing" constant="15" id="qKW-mV-FxS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KCM-z6-MaQ" secondAttribute="bottom" constant="80" id="r7z-wu-wh9"/>
                             <constraint firstItem="3BV-aA-Aqj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y4k-Qe-zzi"/>
+                            <constraint firstItem="1lr-DE-ER8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yar-Du-uEV"/>
                         </constraints>
                     </view>
                     <connections>
