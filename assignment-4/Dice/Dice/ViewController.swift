@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  Dice
-//
-//  Created by Aruzhan Kaharmanova on 10.10.2024.
-//
 import UIKit
 
 class ViewController: UIViewController {
@@ -12,8 +6,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
 
-    
-    let diceImages = ["dice1", "dice2", "dice3", "dice4", "dice5", "dice6"]
+        let diceImages = ["dice1", "dice2", "dice3", "dice4", "dice5", "dice6"]
     
     // Action triggered when the button is pressed
     @IBAction func rollButtonPressed(_ sender: UIButton) {

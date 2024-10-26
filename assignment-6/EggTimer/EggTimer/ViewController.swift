@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  EggTimer
-//
-//  Created by Aruzhan Kaharmanova on 15.10.2024.
-//
-
 import UIKit
 import AVFoundation
 

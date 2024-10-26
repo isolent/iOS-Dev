@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Xylophone
-//
-//  Created by Aruzhan Kaharmanova on 11.10.2024.
-//
-
 import UIKit
 import AVFoundation
 
@@ -26,17 +19,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     func playingSound(chosenSound: String) {
-        guard let url = Bundle.main.url(forResource: chosenSound, withExtension: "wav") else {
-                print("can not find sound")
-                return
-            }
-            
-        audio = try? AVAudioPlayer(contentsOf: url)
-        guard let player = audio else {
-            print("failed to initialize audio player")
+        guard let sound = Bundle.main.url(forResource: chosenSound, withExtension: "wav") else {
+            print("not found")
             return
         }
-
-        player.play()
+    
+        
+        audio = try? AVAudioPlayer(contentsOf: sound)
+        audio?.play()
     }
 }

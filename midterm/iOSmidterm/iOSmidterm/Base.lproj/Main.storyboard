@@ -15,57 +15,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="NA4-CO-24x">
-                                <rect key="frame" x="20" y="376" width="353" height="100"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="xfC-Tb-OE9">
-                                        <rect key="frame" x="0.0" y="0.0" width="114.33333333333333" height="100"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice2" translatesAutoresizingMaskIntoConstraints="NO" id="7gc-gx-7ly">
-                                        <rect key="frame" x="119.33333333333334" y="0.0" width="114.33333333333334" height="100"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice3" translatesAutoresizingMaskIntoConstraints="NO" id="45l-7E-eec">
-                                        <rect key="frame" x="238.66666666666671" y="0.0" width="114.33333333333334" height="100"/>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="5z2-Iv-UPf">
-                                <rect key="frame" x="44" y="409" width="305" height="34.333333333333314"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyW-P7-LdH">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="34.333333333333336"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hK-Ru-Mdc">
-                                        <rect key="frame" x="115" y="0.0" width="75" height="34.333333333333336"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMk-19-r6T">
-                                        <rect key="frame" x="230" y="0.0" width="75" height="34.333333333333336"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="NA4-CO-24x" secondAttribute="trailing" constant="20" id="DPz-Yb-VbP"/>
-                            <constraint firstItem="5z2-Iv-UPf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YfD-Ab-6fH"/>
-                            <constraint firstItem="NA4-CO-24x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zt9-Hz-qio"/>
-                            <constraint firstItem="5z2-Iv-UPf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cgd-2d-qmJ"/>
-                            <constraint firstItem="NA4-CO-24x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ewC-AO-9Ab"/>
-                            <constraint firstItem="NA4-CO-24x" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wOZ-Uz-Whj"/>
-                            <constraint firstItem="NA4-CO-24x" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="x2u-B3-7cb"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="button" destination="xfC-Tb-OE9" id="0Ib-fN-HyN"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,9 +25,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dice1" width="100" height="100"/>
-        <image name="dice2" width="100" height="100"/>
-        <image name="dice3" width="100" height="100"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
