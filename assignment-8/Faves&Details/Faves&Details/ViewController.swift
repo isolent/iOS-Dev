@@ -22,21 +22,6 @@ class ViewController: UIViewController {
         Book(title: "Moby Dick", author: "Herman Melville", genre: "Adventure", poster: #imageLiteral(resourceName: "d10"), description: "Moby-Dick is an iconic American novel by Herman Melville, centered around the obsessive quest of Captain Ahab to capture the great white whale, Moby Dick. The story is narrated by Ishmael, a sailor aboard Ahab's whaling ship, the Pequod, who recounts the perilous journey into the vast oceans. As Ahab's obsession with the whale grows, he disregards the well-being of his crew and risks everything in pursuit of vengeance against the creature that maimed him. The novel explores profound themes of fate, vengeance, the limits of human understanding, and the struggle between man and nature. Through its philosophical musings, vivid descriptions of life at sea, and symbolic use of the whale, Moby-Dick is a tale of obsession, madness, and the complex forces that drive human behavior. Celebrated for its deep exploration of existential questions, it remains a cornerstone of American literature.")
     ]
 
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return popularBooks.count
-//    }
-//    
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "BookCell", for: indexPath) as! BookCell
-//        let book = popularBooks[indexPath.row]
-//        cell.poster.image = book.poster
-//        cell.title.text = book.title
-//        cell.author.text = book.author
-//        cell.genre.text = book.genre
-//        
-//        return cell
-//    }
-
     @IBOutlet weak var bookTable: UITableView!
     private var selectedBook: Book?
     
