@@ -1,8 +1,8 @@
 //
 //  BookCell.swift
-//  My-Fav-Collection
+//  TabbedFaves
 //
-//  Created by Aruzhan Kaharmanova on 26.10.2024.
+//  Created by Aruzhan Kaharmanova on 14.11.2024.
 //
 
 import UIKit
@@ -13,16 +13,8 @@ class BookCell: UITableViewCell {
         super.awakeFromNib()
     }
 
-    func configure(_ model: Book) {
-        title.text = model.title
-        poster.image = model.poster
-        author.text = model.author
-        genre.text = model.genre
-    }
-    
     @IBOutlet weak var poster: UIImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var author: UILabel!
     @IBOutlet weak var genre: UILabel!
-
 }
