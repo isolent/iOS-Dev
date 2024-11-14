@@ -42,6 +42,7 @@ class MusicViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.poster.image = music.poster
         cell.title.text = music.title
         cell.author.text = music.author
+        cell.genre.text = music.genre
         return cell
     }
     

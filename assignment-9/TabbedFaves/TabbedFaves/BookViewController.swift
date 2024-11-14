@@ -41,6 +41,7 @@ class BookViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.poster.image = book.poster
         cell.title.text = book.title
         cell.author.text = book.author
+        cell.genre.text = book.genre
         return cell
     }
     

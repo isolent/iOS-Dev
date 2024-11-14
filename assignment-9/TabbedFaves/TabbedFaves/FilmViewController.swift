@@ -42,6 +42,7 @@ class FilmViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.poster.image = film.poster
         cell.title.text = film.title
         cell.author.text = film.author
+        cell.genre.text = film.genre
         return cell
     }
     
